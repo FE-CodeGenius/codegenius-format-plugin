@@ -37,4 +37,4 @@ const prettierFormatInstaller = (config: FormatOptions) => {
   };
 };
 
-export { FORMAT_GLOB,FormatOptions, prettierFormat, prettierFormatInstaller };
+export { FORMAT_GLOB, FormatOptions, prettierFormat, prettierFormatInstaller };

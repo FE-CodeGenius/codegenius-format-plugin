@@ -2,7 +2,7 @@
   "scripts": [
     {
       "cmd": "prepare",
-      "script": "esno scripts/prepare.ts",
+      "script": "npx codeg hooks",
       "desc": "自动执行脚本"
     },
     {
