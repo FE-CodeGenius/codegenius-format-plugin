@@ -39,7 +39,7 @@
   "scripts": {
     "prepare": "npx codeg hooks",
     "build": "rollup -c",
-    "release": "release-it"
+    "release": "release-it --only-version"
   },
   "keywords": [],
   "devDependencies": {

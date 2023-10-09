@@ -12,7 +12,7 @@
     },
     {
       "cmd": "release",
-      "script": "release-it",
+      "script": "release-it --only-version",
       "desc": "发布脚本"
     }
   ]
