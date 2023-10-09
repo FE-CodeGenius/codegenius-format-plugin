@@ -39,7 +39,7 @@
   "scripts": {
     "prepare": "npx codeg hooks",
     "build": "rollup -c",
-    "release": "release-it --only-version"
+    "release": "dotenv release-it --ci"
   },
   "keywords": [],
   "devDependencies": {
@@ -54,6 +54,7 @@
     "@types/fs-extra": "^11.0.2",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "code-genius": "^0.4.32",
+    "dotenv-cli": "^7.3.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "esno": "^0.17.0",
     "release-it": "^16.2.1",

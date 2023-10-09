@@ -12,7 +12,7 @@
     },
     {
       "cmd": "release",
-      "script": "release-it --only-version",
+      "script": "dotenv release-it --ci",
       "desc": "发布脚本"
     }
   ]
