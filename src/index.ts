@@ -20,7 +20,9 @@ const prettierFormat = async (paths: string[]) => {
 const prettierFormatInstaller = (config: FormatOptions) => {
   const { files } = config;
   return {
-    name: "prettierFormatInstaller",
+    name: "format",
+    describe: "运行 prettier 格式化代码风格",
+    command: "format",
     setup: (cli: CAC) => {
       cli
         .command("format", "运行 prettier 格式化代码风格")
