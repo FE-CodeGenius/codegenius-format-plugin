@@ -1,5 +1,7 @@
 
 
+## [0.0.5](https://github.com/FE-CodeGenius/codegenius-format-plugin/compare/0.0.4...0.0.5) (2023-10-10)
+
 ## [0.0.4](https://github.com/FE-CodeGenius/codegenius-format-plugin/compare/0.0.3...0.0.4) (2023-10-09)
 
 
